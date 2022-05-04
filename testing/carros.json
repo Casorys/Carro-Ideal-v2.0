@@ -1,0 +1,12 @@
+{
+    "pictures": [
+        "../assets/car2.png"
+    ],
+    "name": "VOLVO XC90",
+    "year": 2022,
+    "seats": 7,
+    "fuel": "Híbrido",
+    "category": "SUV"
+    }
+
+    

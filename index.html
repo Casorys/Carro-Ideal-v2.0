@@ -1,0 +1,253 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Carro Ideal - Encontre seu próximo carro</title>
+    <link rel="stylesheet" href="css/home.css">
+</head>
+
+<body>
+    
+    <div class="headerPlaceBG">
+        <img src="assets/headerLogo.png" alt="Carro Ideal Logo">
+    </div>
+    
+    <div class="topOfPage">
+        <div class="carousselFeaturedCars">
+            <a class="clickableFeaturedCar" href="cars/MBGLS2022.html">
+                <p class="featuredCarTitle">MERCEDES-BENZ GLS 2022</p>
+                <div class="carPreviewBottomGradient">
+                    <p class="featuredCarPrice">R$ 937.581,00</p>
+                </div>
+            </a>
+        </div>
+        
+        <div class="quickSearchPanel">
+            <h1>PESQUISAR</h1>
+            <div class="searchFiltersContainer">
+                <div class="filtersQuickSearch">
+                    <ul class="filterUL">
+                        <li class="filterText">Faixa de Preço</li>
+                        <li><input type="range" id="faixaDePreco" name="faixaDePreco" min="63760" max="1000000"></li>
+                    </ul>
+                    <ul class="filterUL">
+                        <li class="filterText">Carroceria</li>
+                        <li>
+                            <select name="carroceria" id="carroceria">
+                            <option value="suv">SUV</option>
+                            <option value="suvcompacto">SUV Compacto</option>
+                            <option value="sedan">Sedan</option>
+                            </select>
+                        </li>
+                    </ul>
+                    <ul class="filterUL">
+                        <li class="filterText">Ano</li>
+                        <li>
+                            <input type="range" id="faixaDeAno" name="faixaDeAno" min="2012" max="2022">
+                        </li>
+                    </ul>
+                    <ul class="filterUL">
+                        <li class="filterText">Combustível</li>
+                        <li>
+                            <select name="combustivel" id="combustivel">
+                            <option value="gasolina">Gasolina</option>
+                            <option value="flex">Flex</option>
+                            <option value="hibrido">Híbrido</option>
+                            <option value="eletrico">Elétrico</option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <a class="linkBuscar" href="resultadosQuickSearch.html">
+                <div class="bgBuscar">
+                    <h2>BUSCAR</h2>
+                </div>
+            </a>
+        </div>
+    </div>
+    
+    <div class="topOfListings">
+        <div class="bgTodosCarros"><p>TODOS OS CARROS</p></div>
+        <div class="alphabetSearch">
+            <p class="alphabet">A</p>
+            <p class="alphabet">B</p>
+            <p class="alphabet">C</p>
+            <p class="alphabet">D</p>
+            <p class="alphabet">E</p>
+            <p class="alphabet">F</p>
+            <p class="alphabet">G</p>
+            <p class="alphabet">H</p>
+            <p class="alphabet">I</p>
+            <p class="alphabet">J</p>
+            <p class="alphabet">K</p>
+            <p class="alphabet">L</p>
+            <p class="alphabet">M</p>
+            <p class="alphabet">N</p>
+            <p class="alphabet">O</p>
+            <p class="alphabet">P</p>
+            <p class="alphabet">Q</p>
+            <p class="alphabet">R</p>
+            <p class="alphabet">S</p>
+            <p class="alphabet">T</p>
+            <p class="alphabet">U</p>
+            <p class="alphabet">V</p>
+            <p class="alphabet">W</p>
+            <p class="alphabet">X</p>
+            <p class="alphabet">Y</p>
+            <p class="alphabet">Z</p>
+        </div>
+    </div>
+    <div class="listingsAllCars">
+        <div class="carCard1">
+            <a class="clickableCarCard" href="cars/VWTIGUANRLINE2021.html">
+                <p class="CarCardTitle">VOLKSWAGEN TIGUAN</p>                
+                <p class="carCardCategoria">SUV</p>
+                <p class="carCardAno">2021</p>
+                <p class="carCardCombustivel">Gasolina</p>
+                <div class="carCardPreviewBottomGradient">
+                    <p class="carCardPrice">R$ 256.633,00</p>
+                </div>
+            </a>
+        </div>
+        <div class="carCard2">
+            <a class="clickableCarCard" href="cars/VOLVOXC902022.html">
+                <p class="CarCardTitle">VOLVO XC90</p>                
+                <p class="carCardCategoria">SUV</p>
+                <p class="carCardAno">2022</p>
+                <p class="carCardCombustivel">Híbrido</p>
+                <div class="carCardPreviewBottomGradient">
+                    <p class="carCardPrice">R$ 454.529,00</p>
+                </div>
+            </a>
+        </div>
+        <div class="carCard3">
+            <a class="clickableCarCard" href="cars/CHERYTIGGO82021.html">
+                <p class="CarCardTitle">CHERY TIGGO 8</p>                
+                <p class="carCardCategoria">SUV</p>
+                <p class="carCardAno">2021</p>
+                <p class="carCardCombustivel">Gasolina</p>
+                <div class="carCardPreviewBottomGradient">
+                    <p class="carCardPrice">R$ 172.944,00</p>
+                </div>
+            </a>
+        </div>
+        <div class="carCard4">
+            <a class="clickableCarCard" href="cars/HYUNDAINOVOCRETA2022.html">
+                <p class="CarCardTitle">HYUNDAI NOVO CRETA</p>                
+                <p class="carCardCategoria">SUV</p>
+                <p class="carCardAno">2022</p>
+                <p class="carCardCombustivel">Gasolina</p>
+                <div class="carCardPreviewBottomGradient">
+                    <p class="carCardPrice">R$ 114.014,00</p>
+                </div>
+            </a>
+        </div>
+        <div class="carCard5">
+            <a class="clickableCarCard" href="cars/CHERYARRIZO62021.html">
+                <p class="CarCardTitle">CHERY ARRIZO 6</p>                
+                <p class="carCardCategoria">Sedan</p>
+                <p class="carCardAno">2021</p>
+                <p class="carCardCombustivel">Gasolina</p>
+                <div class="carCardPreviewBottomGradient">
+                    <p class="carCardPrice">R$ 112.576,00</p>
+                </div>
+            </a>
+        </div>
+        <div class="carCard6">
+            <a class="clickableCarCard" href="cars/HYUNDAIAZERA2020.html">
+                <p class="CarCardTitle">HYUNDAI AZERA</p>                
+                <p class="carCardCategoria">Sedan</p>
+                <p class="carCardAno">2020</p>
+                <p class="carCardCombustivel">Gasolina</p>
+                <div class="carCardPreviewBottomGradient">
+                    <p class="carCardPrice">R$ 273.937,00</p>
+                </div>
+            </a>
+        </div>
+        <div class="carCard7">
+            <a class="clickableCarCard" href="cars/VOLVOXC40RECHARGE2022.html">
+                <p class="CarCardTitle">VOLVO XC40 RECHARGE</p>                
+                <p class="carCardCategoria">SUV Compacto</p>
+                <p class="carCardAno">2022</p>
+                <p class="carCardCombustivel">Elétrico</p>
+                <div class="carCardPreviewBottomGradient">
+                    <p class="carCardPrice">R$ 373.320,00</p>
+                </div>
+            </a>
+        </div>
+        <div class="carCard8">
+            <a class="clickableCarCard" href="cars/HYUNDAISONATA2012.html">
+                <p class="CarCardTitle">HYUNDAI SONATA</p>                
+                <p class="carCardCategoria">Sedan</p>
+                <p class="carCardAno">2012</p>
+                <p class="carCardCombustivel">Gasolina</p>
+                <div class="carCardPreviewBottomGradient">
+                    <p class="carCardPrice">R$ 63.760,00</p>
+                </div>
+            </a>
+        </div>
+        <div class="carCard9">
+            <a class="clickableCarCard" href="cars/HONDAWRV2021.html">
+                <p class="CarCardTitle">HONDA WR-V</p>                
+                <p class="carCardCategoria">SUV Compacto</p>
+                <p class="carCardAno">2021</p>
+                <p class="carCardCombustivel">Gasolina</p>
+                <div class="carCardPreviewBottomGradient">
+                    <p class="carCardPrice">R$ 106.059,00</p>
+                </div>
+            </a>
+        </div>
+        <div class="carCard10">
+            <a class="clickableCarCard" href="cars/VOLVOS902022.html">
+                <p class="CarCardTitle">VOLVO S90</p>                
+                <p class="carCardCategoria">Sedan</p>
+                <p class="carCardAno">2022</p>
+                <p class="carCardCombustivel">Híbrido</p>
+                <div class="carCardPreviewBottomGradient">
+                    <p class="carCardPrice">R$ 398.017,00</p>
+                </div>
+            </a>
+        </div>
+        <div class="carCard11">
+            <a class="clickableCarCard" href="cars/AUDIA82022.html">
+                <p class="CarCardTitle">AUDI A8</p>                
+                <p class="carCardCategoria">Sedan</p>
+                <p class="carCardAno">2022</p>
+                <p class="carCardCombustivel">Híbrido</p>
+                <div class="carCardPreviewBottomGradient">
+                    <p class="carCardPrice">R$ 673.540,00</p>
+                </div>
+            </a>
+        </div>
+        <div class="carCard12">
+            <a class="clickableCarCard" href="cars/MBE3002022.html">
+                <p class="CarCardTitle">MERCEDES-BENZ E300</p>                
+                <p class="carCardCategoria">Sedan</p>
+                <p class="carCardAno">2022</p>
+                <p class="carCardCombustivel">Gasolina</p>
+                <div class="carCardPreviewBottomGradient">
+                    <p class="carCardPrice">R$ 555.990,00</p>
+                </div>
+            </a>
+        </div>
+        
+    </div>
+    
+    <div class="footer">
+        <img src="assets/footerLogo.png" alt="Carro Ideal Logo" class="footerLogo">
+        <div class="footerInfoContainer">
+                <a href="faq.html" class="faqClickable">FAQ</a>
+                <a href="quemsomos.html" class="quemSomosClickable">Quem Somos</a>
+                <a href="contato.html" class="contatoClickable">Contato</a>
+                <a href="privacidade.html" class="privacidadeClickable">Termo de Privacidade</a>
+                <p class="copyrightFooter">© 2021, Carro Ideal</p>
+        </div>
+        <div class="socialAccountsContainer">
+            <p class="businessSocial">CarroIdeal</p>
+            <img src="assets/logoInsta.png" alt="Instagram Logo" class="instaLogo">
+        </div>
+    </div>
+    
+</body>
+</html>

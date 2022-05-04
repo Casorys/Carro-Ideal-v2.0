@@ -1,0 +1,14 @@
+{
+        "carName": "Mercedes-Benz GLS 2022",
+        "carYear": "2022",
+        "carPrice": "R$ 937.581,00",
+        "carImages": [
+            "../assets/carPreview.webp",
+            "../assets/car1.png"
+        ],
+        "assentos": "7",
+        "camera": "360 Graus",
+        "arCondicionado": true,
+        "airBag": true,
+        "tetoSolar": true
+    }
